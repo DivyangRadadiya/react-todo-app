@@ -1,0 +1,28 @@
+{
+  "name": "react-next-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "formik": "^2.4.6",
+    "lucide-react": "^0.543.0",
+    "next": "15.5.2",
+    "react": "19.1.0",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-dom": "19.1.0",
+    "uuid": "^13.0.0",
+    "yup": "^1.7.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.2",
+    "tailwindcss": "^4"
+  }
+}
