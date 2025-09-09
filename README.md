@@ -17,21 +17,20 @@
     npm install
 
 
-# If you clone this project and run `npm install`
-# and get a dependency conflict (ERESOLVE error),
-# please use one of the following commands instead:
-#
-#   npm install --legacy-peer-deps
-#       → Recommended, installs ignoring peer dependency conflicts
-#
-#   OR
-#
-#   npm install --force
-#       → Forces install but may use mismatched versions
-#
-# ===============================
+3. If you clone this project and run `npm install`
+   and get a dependency conflict (ERESOLVE error),
+   please use one of the following commands instead:
 
-3. Start the development server:
+   npm install --legacy-peer-deps
+       → Recommended, installs ignoring peer dependency conflicts
+
+   OR
+
+   npm install --force
+       → Forces install but may use mismatched versions
+
+
+4. Start the development server:
     ```bash
     npm run dev
     or
@@ -41,7 +40,7 @@
     or
     bun dev
 
-4. Open your browser and navigate to `http://localhost:3000`
+5. Open your browser and navigate to `http://localhost:3000`
 
 ### Build for Production
 
