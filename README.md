@@ -10,10 +10,9 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 ### Installation
 
 1. Clone the repository:
-\`\`\`bash
-git clone <repository-url>
-cd react-todo-app
-\`\`\`
+   ```bash
+   git clone <repository-url>
+   cd react-todo-app
 
 2. Install dependencies:
 \`\`\`bash

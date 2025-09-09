@@ -1,9 +1,9 @@
-"use client"
-import { Search } from "lucide-react"
-import { useTodo } from "../context/TodoContext"
+"use client";
+import { Search } from "lucide-react";
+import { useTodo } from "../context/TodoContext";
 
 function Header() {
-  const { searchQuery, actions } = useTodo()
+  const { searchQuery, actions } = useTodo();
 
   return (
     <header className="bg-white border-b border-gray-200 px-6 py-4">
@@ -13,7 +13,10 @@ function Header() {
         </div>
 
         <div className="relative w-96">
-          <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" size={20} />
+          <Search
+            className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"
+            size={20}
+          />
           <input
             type="text"
             placeholder="Search tasks, descriptions, or tags..."
@@ -24,7 +27,7 @@ function Header() {
         </div>
       </div>
     </header>
-  )
+  );
 }
 
-export default Header
+export default Header;
