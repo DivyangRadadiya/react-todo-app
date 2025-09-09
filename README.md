@@ -15,28 +15,25 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
    cd react-todo-app
 
 2. Install dependencies:
-\`\`\`bash
-npm install
-\`\`\`
+    ```bash
+    npm install
 
 3. Start the development server:
-\`\`\`bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-\`\`\`
+    ```bash
+    npm run dev
+    or
+    yarn dev
+    or
+    pnpm dev
+    or
+    bun dev
 
 4. Open your browser and navigate to `http://localhost:3000`
 
 ### Build for Production
 
-\`\`\`bash
-npm run build
-\`\`\`
+- npm run build
+
 
 ## Usage
 
